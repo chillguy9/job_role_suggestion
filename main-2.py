@@ -11,7 +11,7 @@ app = FastAPI(
 )
 
 # Load model once at startup
-model = joblib.load("api/shubh_model.pkl")
+model = joblib.load("shubh_model.pkl")
 
 
 # ── Pydantic input schema ──────────────────────────────────────────────────────
